@@ -1,0 +1,19 @@
+.principal__texto{
+    width: 90%;
+    background: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.principal__texto-titulo{
+    background: linear-gradient(90deg, var(--cor02), var(--cor04));
+    font-weight: 700;
+    text-align: left;
+    padding: 20px;
+    color: var(--cor01);
+    text-shadow: 2px 2px 2px black;
+}
+
+.lista-referencia{
+    list-style: none;
+}
