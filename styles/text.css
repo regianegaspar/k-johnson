@@ -3,6 +3,7 @@
     background: white;
     text-align: center;
     padding: 12px;
+    line-height: 1.5em;
 }
 
 .principal__texto-titulo{
@@ -10,10 +11,21 @@
     font-weight: 700;
     text-align: left;
     padding: 20px;
-    color: var(--cor01);
+    color: var(--cor03);
     text-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
 }
 
 .lista-referencia{
     list-style: none;
+}
+
+@media screen and (min-width:769px){
+    .principal{
+        margin: auto;
+        width: 700px;
+        padding-top: 80px;
+
+
+    }
 }

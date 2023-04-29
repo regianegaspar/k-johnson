@@ -6,10 +6,10 @@
 :root{
     --fonte-principal: 'Nurito Sans';
     --fonte-nome: 'Yellowtail';
-    --cor01: #7286d3;
-    --cor02: #8ea7e9;
-    --cor03: #e5e0ff;
-    --cor04: #fff2f2;
+    --cor01: #212A3E;
+    --cor02: #394867;
+    --cor03: #9BA4B5;
+    --cor04: #F1F6F9;
 }
 
 *{
@@ -20,13 +20,14 @@
 body{
     font-family: var(--fonte-principal), sans-serif;
     font-size: 24px;
-    background: var(--cor02);
+    background: var(--cor04);
 }
 
 .principal{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: auto;
 }
 
 .rodape{
@@ -34,11 +35,12 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-weight: 700;
-    text-shadow: 2px 2px 2px var(--cor02);
+    text-shadow: 2px 2px 2px var(--cor03);
     background-color: var(--cor04);
     color: var(--cor01);
+    gap: 15px;
 }
 
 .nome{
