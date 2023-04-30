@@ -1,0 +1,46 @@
+.carrossel{
+    background-color: var(--cor03);
+    width: 90%;
+}
+
+.botoes-carrossel {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+    margin: 30px;
+}
+
+.botoes-carrossel .botao {
+	background-color: var(--cor03);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: var(--cor01);
+}
+
+.botoes-carrossel .botao.selecionado {
+	background-color: var(--cor01);
+    
+}
+.carrossel .imagem {
+	width: 95%;
+	object-fit: cover;
+	display: none;
+	animation: mudarImagem 0.7s;
+    margin: 20px auto;
+}
+
+.carrossel .imagem.ativa {
+	display: block;
+}
+
+@keyframes mudarImagem {
+	from {
+		opacity: 0.85;
+	}
+	to {
+		opacity: 1;
+	}
+}

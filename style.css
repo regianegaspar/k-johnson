@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Yellowtail&display=swap');
 @import url(styles/header.css);
 @import url(styles/text.css);
+@import url(styles/carrossel.css);
 
 :root{
     --fonte-principal: 'Nurito Sans';
@@ -28,6 +29,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: auto;
+    margin: auto;
 }
 
 .rodape{

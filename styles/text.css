@@ -4,6 +4,7 @@
     text-align: center;
     padding: 12px;
     line-height: 1.5em;
+    margin-top: 30px;
 }
 
 .principal__texto-titulo{
@@ -18,14 +19,12 @@
 
 .lista-referencia{
     list-style: none;
+    /* text-decoration: none; */
 }
 
 @media screen and (min-width:769px){
     .principal{
-        margin: auto;
-        width: 700px;
+        width: 760px;
         padding-top: 80px;
-
-
     }
 }
