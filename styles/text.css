@@ -22,6 +22,11 @@
     /* text-decoration: none; */
 }
 
+.lista-referencia a{
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (min-width:769px){
     .principal{
         width: 760px;

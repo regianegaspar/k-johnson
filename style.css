@@ -7,10 +7,10 @@
 :root{
     --fonte-principal: 'Nurito Sans';
     --fonte-nome: 'Yellowtail';
-    --cor01: #212A3E;
+    --cor01: #212a3e;
     --cor02: #394867;
-    --cor03: #9BA4B5;
-    --cor04: #F1F6F9;
+    --cor03: #9ba4b5;
+    --cor04: #f1f6f9;
 }
 
 *{
