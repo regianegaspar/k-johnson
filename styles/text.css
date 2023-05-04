@@ -5,6 +5,7 @@
     padding: 12px;
     line-height: 1.5em;
     margin-top: 30px;
+    
 }
 
 .principal__texto-titulo{
@@ -19,7 +20,7 @@
 
 .lista-referencia{
     list-style: none;
-    /* text-decoration: none; */
+    margin-bottom: 30px;
 }
 
 .lista-referencia a{
@@ -27,6 +28,15 @@
     color: black;
 }
 
+.retorno{
+        text-decoration: none;
+        background-color: var(--cor03);
+        color: var(--cor04);
+        padding: 16px;
+        margin: 20px;
+        border-radius: 16px;
+
+}
 @media screen and (min-width:769px){
     .principal{
         width: 760px;
