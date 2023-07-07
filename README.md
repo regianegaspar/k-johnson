@@ -10,9 +10,9 @@
 </p>
 <br>
 
-<!-- <p align="center">
-<img alt="" src="" width="100%">
-</p> -->
+<p align="center">
+<img alt="Projeto Katherine Johnson" src="https://github.com/regianegaspar/k-johnson/blob/main/imagens/JK.PNG" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
