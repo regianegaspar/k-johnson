@@ -1,5 +1,5 @@
 <h1 align="center">Katherine Johnson</h1>
-<h2>Projeto em desenvolvimento</h2>
+Projeto finalizado
 
 
 
